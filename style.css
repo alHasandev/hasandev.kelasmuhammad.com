@@ -1,0 +1,819 @@
+/*@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 
+    src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}*/
+/*
+Name             : F1Dev mudahan Responsive 2017
+Theme Published  : 20-12-2017
+Theme Update     : 21-12-2017
+Type             : Personal Blog
+Style            : Minimalist
+Designer         : Al Hasan
+Designer url     : www.hasandev.blogspot.com
+Thanks to        : All supported
+License          : This is self designed website and anyone can use it, but don't remove this credit for credentials. Thanks
+*/
+a {
+    text-decoration: none;
+    /* color: black; */
+    outline: none;
+}
+
+a:visited {
+    color: -webkit-link;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: -webkit-link;
+}
+
+body {
+    margin: 0;
+    margin-top: -10px;
+    padding: 0px;
+    font-family: "arial", sans-serif;
+    background: #ccc;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0px;
+    height: auto;
+    background: #eee;
+    margin: 10px auto;
+}
+
+.container section {
+    overflow: hidden;
+    position: relative;
+}
+
+.container .content p {
+    text-align: justify;
+    line-height: 1.5em;
+    margin: 1em 0px 0px 0px;
+}
+
+.container .header {
+    text-align: center;
+    background: #111111;
+    height: auto;
+    overflow: hidden;
+    color: #25b14c;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.footer .box p i.fa {
+    display:inline-block;
+    width:20px;
+    text-align: center;
+}
+
+.container .header p {
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 600;
+    color: #eee;
+    display: block;
+    max-width: 460px;
+    text-align: right;
+    transition: 0.5s;
+}
+
+.container .box-border {
+    box-sizing: border-box;
+    overflow: hidden;
+    display: inline-block;
+}
+.container aside {
+    display: inline-block;
+    float: left;
+    width: 250px;
+    height: 400px;
+    background: #222;
+    color: #eee;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.container .content {
+    /* display: inline-block; */
+    overflow: hidden;
+    max-width: 850px;
+    min-height: 596px;
+    margin: 10px auto;
+    padding: 20px 20px 40px 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.content h2 {font-size: 2em;}
+
+.container aside nav.menu .title {
+    margin: 0px;
+    padding-left: 20px;
+    height: 50px;
+    line-height: 50px;
+    background: #25b14c;
+}
+
+.container aside nav.menu ul li.close {
+    display: none;
+}
+
+.container aside nav.menu ul li.menuHasan {
+    display: none;
+}
+
+.container aside nav.menu ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.container section .floatLeft {
+    float: left;
+}
+.container section .socialBox {
+    width: 250px;
+    min-height: 234px;
+    background: #25b14c;
+    display: inline-block;
+    position: absolute;
+    top: 430px;
+    left: 10px;
+    border-radius: 5px;
+}
+
+.footer .box p {
+    /* text-align: right; */
+    /* font-style: italic; */
+    font-size: 14px;
+    /* vertical-align: bottom; */
+    /* line-height: 100%; */
+    box-sizing: border-box;
+    margin: 15px 0px 15px 25px;
+    /* width: 200px; */
+}
+
+.container .footer {
+    height: auto;
+    background: #111;
+    color: #ddd;
+    overflow: hidden;
+    clear: both;
+    line-height: 100%;
+}
+
+.container .footer .left {
+    float: left;
+    /* margin-left: 100px; */
+}
+
+.container .footer span {
+    display: block;
+    width: 325px;
+    /* height: 210px; */
+    margin: 10px 20px;
+    float: left;
+}
+.container .footer span a {
+    color: #a1b99f;
+}
+.container .footer span a:hover {
+    color: #eee;
+}
+.footer .box {
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.container aside .menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #eee;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0px 10px 0px 20px;
+}
+
+
+.container aside .menu ul li.btnNav {
+    display: none;
+}
+
+.container aside .menu ul li a:hover {
+    background: #111;
+}
+
+.container aside .menu .title h2 {
+    margin: 0;
+    display: inline-block;
+    font-weight: 800;
+}
+
+.container .title span {
+    display: none;
+}
+
+.box-shadow {
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.7);
+}
+
+span.clear {
+    clear: both;
+}
+
+.socialBox .title {
+    text-align: left;
+    /* font-size: 25px; */
+    /* font-weight: bold; */
+    color: #eee;
+    padding-left: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.socialBox .title h2 {
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.socialBox ul li {
+    list-style-type: none;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+
+.socialBox ul {
+    margin: 0;
+    padding: 0;
+}
+
+.socialBox ul li a {
+    text-decoration: none;
+    color: #eee;
+    font-weight: 600;
+    margin: 0;
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+
+.socialBox ul li a:hover {
+    background: #222;
+}
+
+
+.socialBox ul li a i {
+    /* background: #222; */
+    display: inline-block;
+    width: 40px;
+    /* height: 40px; */
+    line-height: 40px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+.socialBox ul li a p {
+    margin: 0;
+    display: inline-block;
+    padding-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+
+/*jika layar device kurang dari 999px*/
+@media screen and (max-width: 999px) {
+    .container .header h1 {
+        font-size: 40px;
+    } 
+    .container aside.fixed.open {
+        width: 300px;
+        height: 100%;
+        overflow: visible;
+    }
+    .container aside.fixed.open .menu ul li {
+        display: block;
+        clear: both;
+    }
+
+    .container aside.fixed.open .menu ul li.menuHasan {
+        display: block;
+        background: #25b14c;
+    }
+    .container aside.fixed.open .menu ul li.menuHasan a {
+        height: 100px;
+        font-size: 24px;
+        line-height: 100px;
+    }
+    .container aside.fixed.open .menu ul li.menuHasan a:hover {
+        display: block;
+        background: #25b14c;
+    }
+    .container aside.fixed.open .menu ul li:last-child {
+        display: none;
+    }
+    .container aside.fixed.open nav.menu ul li.close {
+        display: block;
+        position: absolute;
+        top: 0;
+        /* right: 0; */
+        /* bottom: 0; */
+        left: 300px;
+        text-align: left;
+        width: 250%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+    }
+    .container aside.fixed.open nav.menu ul li.close a {
+        display: inline-block;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        background: #25b14c;
+        /* margin: 24px 15px; */
+        position: absolute;
+        top: 0;
+        left: -50px;
+    }
+    .container aside.fixed.open nav.menu ul li.close a:hover {
+        color: #111;
+    }
+
+    
+    .container {
+        /* margin-left: 10px; */
+        /* margin-right: 10px; */
+    }
+    .container.none {
+        margin-top: 60px;
+    }
+    .container.none .header {
+        display: none;
+    }
+
+    .container section .socialBox {
+        display: block;
+        position: static;
+        margin: 10px 0px 20px 0px;
+        width: 100%;
+        padding: 0;
+        height: auto;
+        min-height: 0;
+        box-sizing: border-box;
+    }
+    .container section .socialBox .title {
+        text-align: center;
+        padding: 0;
+    }
+    .container section .socialBox .title h2 {
+        font-size: 20px;
+        color: #eee;
+    }
+    
+    .container section .socialBox ul {
+           text-align: center;
+    }
+    .container section .socialBox ul li {
+        display: inline-block;
+        padding: 0px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    .container section .socialBox ul li a:hover {
+        color: #222;
+    }
+    .container section .socialBox ul li a {
+        padding: 0;
+        /*width: 30px;
+        height: 30px;
+        line-height: 30px;*/
+    }
+
+    .container section .socialBox ul li a:hover {
+        background: rgba(0,0,0,0);
+    }
+    .container section .socialBox p {
+        display: none;
+    }
+    .container aside .menu ul li a {
+         font-size: 14px;
+         padding: 0px;
+         width: auto;
+         height: auto;
+    }
+    .container aside.fixed .menu ul li a.lock {
+        float: left;
+    }
+    .container aside.fixed .menu ul li a.openLock {
+        float: right;
+        font-size: 25px;
+    }
+
+    .container aside.fixed .menu ul li span.titleNav {
+        display: inline-block;
+        box-sizing: border-box;
+        height: 100%;
+        font-size: 25px;
+        font-weight: 800;
+        color: #25b14c;
+        line-height: 50px;
+    }
+
+    .container aside.fixed .menu ul li a.lock, aside.fixed .menu ul li a.openLock {
+        display: inline-block;
+        padding: 0;
+        width: 50px;
+        height: 50px;
+        box-sizing: border-box;
+        font-size: 25px;
+    }
+
+    aside.fixed .menu ul li a.openLock i {
+        display: inline-block;
+        width: 100%;
+        line-height: 50px;
+        margin: 0;
+    }
+
+    .container section {
+        padding: 0px 10px;
+    }
+
+    .container aside {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    .container aside nav.menu .title {
+        padding-left: 0;
+    }
+
+    .container .title h2 {
+        margin: 0px auto;
+    }
+
+    .container .content {
+        margin: 10px auto;
+        max-width: 100%;
+        min-height: 100px;
+    }
+
+    .container .title span {
+        position: absolute;
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        display: inline-block;
+    }
+
+    .container .title span i {
+        /*line-height: 40px;*/
+        display: inline-block;
+        width: 100%;
+        line-height: 50px;
+    }
+
+    aside.fixed {
+        position: fixed;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+        margin: 0;
+    }
+    
+    aside.fixed .menu .title {
+        display: none;
+    }
+
+    aside.fixed .menu ul li.btnNav {
+        display: block;
+    }
+
+    aside.fixed .menu ul li a.lock, aside.fixed .menu ul li a.openLock {
+        display: inline-block;
+    }
+
+    aside.fixed .menu ul li:not(:last-child) {
+        display: none;
+    }
+
+}
+
+/*jika layar device kurang dari 1220px dan lebih dari 1000px*/
+@media screen and (max-width: 1220px) and (min-width: 1000px){
+    .container .content { 
+        max-width: 65%;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .container .header p {
+        text-align: center;
+        font-size: 14px;
+    }
+    .content h2 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+    .footer .box p {
+        width: 250px;
+    }
+}
+
+.info {
+    border-left: 6px solid #25b14c;
+    background: #ddffdd;
+    height: auto;
+    overflow: overlay;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: 20px 0;
+}
+
+.container .content .info p {
+    margin: 1em 0;
+}
+
+.container .content .info p a {
+    color: #ff7373;
+    text-shadow: -1px 1px 2px #000;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.container .content .info p a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+p.salam span.italic {
+    font-style: italic;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+p.salam span.arabic {
+    float: right;
+    font-size: 1.5em;
+    display: inline-block;
+    margin: 5px;
+}
+
+div.salam {
+    border-left: 6px solid #ffeb3b;
+    background: #ffffcc;
+    height: auto;
+    overflow: overlay;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin: 20px 0;
+}
+
+.container .content .salam p {
+    margin: 1em 0;
+}
+
+.container .content .info h4 {
+    font-size: 18px;
+    margin: 1em 0;
+}
+
+.container .header p:hover {
+    cursor: pointer;
+    transform: translate(8px, 0);
+}
+
+i.fa.fa-angle-double-right.dua {
+    display: none;
+    position: absolute;
+    top: 1px;
+    transition: 0.5s;
+}
+
+.content .title-content {
+    padding: 0;
+    background: #25b14c;
+    overflow: hidden;
+    height: 50px;
+    border-bottom: 4px solid #222;
+    /* box-sizing: border-box; */
+}
+
+.content .title-content h2 {
+    margin: 0;
+    text-align: left;
+    display: inline-block;
+    float: left;
+    width: 150px;
+    color: #222222;
+    text-shadow: 2px 1px 1px rgba(0,0,0,0.5);
+}
+
+.content .title-content p {
+    margin: 0;
+}
+
+.content .title-content ul li {
+    float: left;
+    list-style: none;
+    display: inline-block;
+    height: 100%;
+    line-height: 50px;
+}
+
+.content .title-content ul {
+    margin: 0;
+    padding: 0;
+    /* float: right; */
+    height: 100%;
+}
+
+.content .title-content .nav {
+    float: right;
+    display: inline-block;
+    /* line-height: 100%; */
+}
+
+.content .title-content div {
+    /* width: 5px; */
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+.content .title-content ul li a {
+    color: #eee;
+    font-weight: 800;
+    display: inline-block;
+    width: 120px;
+    /* line-height: 100%; */
+    text-align: center;
+}
+
+.content .title-content ul li:hover {
+    background: #222;
+}
+
+.content .title-content ul li a:hover {
+    text-decoration: none;
+}
+
+.content .title-content ul li.active {
+    background: #222;
+}
+
+.content .title-content ul li a.icon-search {
+    width: 50px;
+}
+
+.readMore {
+    height: 210px;
+    overflow: hidden;
+}
+
+.ReadMore {
+    display: inline-block;
+    /* margin: 10px; */
+    background: #25b14c;
+    padding: 5px;
+    color: #eee;
+    font-weight: 800;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ReadMore:hover {
+    background: #222;
+}
+
+.container .content .readMore p {
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.container aside ul li a.active {
+    background: #111;
+}
+
+/*
+    Style for content blog tutorial membuat kalkulator
+*/
+
+.demoKalkulator {
+        background:#ccc;
+        width: 300px;
+        box-sizing: border-box;
+    }
+    .demoKalkulator .layar {
+        background: #333;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .demoKalkulator .control {
+        background: #5489fe;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .demoKalkulator .layar input[type="text"] {
+        width: 90px;
+        box-sizing: border-box;
+        font-size: 18px;
+        height: 30px;
+        padding: 2px 10px;
+        margin: 0px;
+        border: none;
+    }
+
+    .demoKalkulator .control button {
+        background: #222;
+        border: none;
+        border-radius: 3px;
+        color: #eee;
+        font-size: 16px;
+        padding: 10px;
+        width: 100%;
+        margin: 10px 0;
+        cursor: pointer;
+    }
+    
+    .demoKalkulator .control button:hover {
+        background: #111;
+    }
+
+    @media screen and (max-width: 460px){
+        .demoKalkulator {
+            width: 100%;
+        }
+
+        .demoKalkulator .layar input[type="text"] {
+            width: 100%;
+            margin: 5px 0;
+        }
+    }
+
+/* akhir style*/
+
+.content .title-content i.fa.fa-laptop {
+    float: left;
+    height: 100%;
+    width: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    font-size: 30px;
+    /* text-align: right; */
+}
