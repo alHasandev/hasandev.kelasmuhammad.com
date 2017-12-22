@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kalkulator Sederhana</title>
+</head>
+<body>
+	<style>
+		#demoKalkulator {
+			background: #ccc;
+			width: 400px;
+		}
+		#demoKalkulator #layar {
+			box-sizing: border-box;
+			padding: 10px;
+		}
+		#demoKalkulator #layar input[type="text"] {
+			width: 120px;
+			border: none;
+		}
+	</style>
+	<p>Coba kalkulator</p>
+	<div id="demoKalkulator">
+		<div id="layar">
+			<input type="text" name="input1" placeholder="nilai 1" id="nilai1">
+			<input type="text" name="input2" placeholder="nilai 1" id="nilai2">
+			<input type="text" name="hasil" placeholder="hasil" id="hasil">
+		</div>
+
+		<div id="control">
+			<button onclick="hasilKalkulator('tambah');">Hasil Tambah</button><br>
+			<button onclick="hasilKalkulator('kurang');">Hasil Kurang</button><br>
+			<button onclick="hasilKalkulator('kali');">Hasil Kali</button><br>
+			<button onclick="hasilKalkulator('bagi');">Hasil Bagi</button><br>
+		</div>
+	</div>
+
+	<script>
+		function hasilKalkulator(ope) {
+			// buat variable dan ambil nilai yang telah diinputkan
+			var bil1 = document.getElementById("nilai1").value;
+			var bil2 = document.getElementById("nilai2").value;
+			var hasil;
+
+			// operasi tergantung kondisi
+			if( ope == 'tambah' ){ // jika operatornya tambah maka
+				// nilai hasil adalah bil1 + bil2
+				hasil = Number(bil1) + Number(bil2);
+			} else
+			if( ope == 'kurang' ){
+				hasil = Number(bil1) - Number(bil2);
+			} else
+			if( ope == 'kali' ){
+				hasil = Number(bil1) - Number(bil2);
+			} else
+			if( ope == 'bagi' ){
+				hasil = Number(bil1) - Number(bil2);
+			} else {
+				hasil = "Operasi Gagal/error";
+			}
+
+			document.getElementById("hasil").setAttribute("value", hasil);
+		}
+	</script>
+</body>
+</html>
