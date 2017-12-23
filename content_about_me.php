@@ -22,6 +22,38 @@
 </div>
 
 <h3 id="alamat">Alamat</h3>
+<p>Kamu bisa menemukan saya di</p>
+<div class="alamat">
+<span class="properti">Jalan</span>
+<span class="nilai">: Padat Karya</span>
+
+<span class="properti">Rt/Rw</span>
+<span class="nilai">: 63/ - </span>
+
+<span class="properti">Blok</span>
+<span class="nilai">: Kayu Jati</span>
+
+<span class="properti">No</span>
+<span class="nilai">: 17</span>
+
+<span class="properti">Kelurahan</span>
+<span class="nilai">: Sungai Andai</span>
+
+<span class="properti">Kecamatan</span>
+<span class="nilai">: Banjarmasin Utara</span>
+
+<span class="properti">Kota</span>
+<span class="nilai">: Banjarmasin</span>
+
+<span class="properti">Provinsi</span>
+<span class="nilai">: Kalimantan Selatan</span>
+
+<span class="properti">Negara</span>
+<span class="nilai">: Indonesia</span>
+
+<span class="properti">Kode Pos</span>
+<span class="nilai">: 70122</span>
+</div>
 <h3>Pendidikan</h3>
 <h3>Pekerjaan</h3>
 <h3>Hobi dan Keseharian</h3>
