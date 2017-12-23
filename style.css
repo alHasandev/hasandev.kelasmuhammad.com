@@ -61,8 +61,7 @@ body {
 
 .container .content p {
     text-align: justify;
-    line-height: 1.5em;
-    margin: 1em 0px 0px 0px;
+    line-height: 2em;
 }
 
 .container .header {
@@ -654,7 +653,7 @@ i.fa.fa-angle-double-right.dua {
     display: inline-block;
     float: left;
     width: 150px;
-    color: #222222;
+    color: #ff7373;
     text-shadow: 2px 1px 1px rgba(0,0,0,0.5);
 }
 
@@ -815,5 +814,20 @@ i.fa.fa-angle-double-right.dua {
     line-height: 50px;
     box-sizing: border-box;
     font-size: 30px;
-    /* text-align: right; */
+    color: #eee;
+}
+
+.content span.properti {
+    width: 150px;
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.content span.nilai {display: inline-block;width: 600px;margin: 10px 0;}
+
+.content .alamat {
+    background: #fff98e;
+    border-left: 6px solid #daa520;
+    padding: 10px 10px 10px 20px;
 }
