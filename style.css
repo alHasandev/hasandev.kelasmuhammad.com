@@ -12,7 +12,7 @@
 /*
 Name             : F1Dev mudahan Responsive 2017
 Theme Published  : 20-12-2017
-Theme Update     : 21-12-2017
+Theme Update     : 23-12-2017
 Type             : Personal Blog
 Style            : Minimalist
 Designer         : Al Hasan
@@ -313,6 +313,10 @@ span.clear {
 
 /*jika layar device kurang dari 999px*/
 @media screen and (max-width: 999px) {
+    .container .content .about .jumbotron {
+        height: unset;
+        min-height: 630px;
+    }
     .container .header h1 {
         font-size: 40px;
     } 
@@ -794,17 +798,7 @@ i.fa.fa-angle-double-right.dua {
         background: #111;
     }
 
-    @media screen and (max-width: 460px){
-        .demoKalkulator {
-            width: 100%;
-        }
-
-        .demoKalkulator .layar input[type="text"] {
-            width: 100%;
-            margin: 5px 0;
-        }
-    }
-
+    
 /* akhir style*/
 
 .content .title-content i.fa.fa-laptop {
@@ -830,4 +824,142 @@ i.fa.fa-angle-double-right.dua {
     background: #fff98e;
     border-left: 6px solid #daa520;
     padding: 10px 10px 10px 20px;
+}
+
+.content .about {
+    background: #514b97;
+    color:#eee;
+}
+.content .about .jumbotron {
+    height: 580px;
+    background: #27253d;
+    background-image: url("../img/forJumbotronHKM.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+}
+
+
+.about .jumbotron .imgProfil {
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 0 4px 16px rgba(0,0,0,0.7);
+}
+
+.about .jumbotron .caption {
+    font-style: italic;
+    text-align: center;
+}
+
+.content .about .unguMuda {
+    background: #514b97;
+    height: 40px;
+}
+
+.content .about .unguTua {
+    background: #27253d;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+.content .about .alamat {
+    background: unset;
+    border: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 800px) and (min-width: 700px){
+    .container .content .about .jumbotron {
+            height: unset;
+            min-height: 500px;
+            padding: 5px;
+        }
+}
+
+@media screen and (max-width: 699px) and (min-width: 600px){
+        .container .content .about .jumbotron {
+            height: unset;
+            min-height: 400px;
+            padding: 5px;
+        }
+
+        .about .jumbotron .imgProfil {
+            font-size: 40px;
+        }
+}
+
+@media screen and (max-width: 599px) and (min-width: 500px){
+        .container .content .about .jumbotron {
+            height: unset;
+            min-height: 350px;
+            padding: 5px;
+        }
+
+        .about .jumbotron .imgProfil {
+            font-size: 24px;
+        }
+}
+
+@media screen and (max-width: 499px) and (min-width: 461px){
+        .container .content .about .jumbotron {
+            height: unset;
+            min-height: 300px;
+            padding: 5px;
+        }
+
+        .about .jumbotron .imgProfil {
+            font-size: 22px;
+        }
+}
+
+@media screen and (max-width: 460px){
+        .demoKalkulator {
+            width: 100%;
+        }
+
+        .demoKalkulator .layar input[type="text"] {
+            width: 100%;
+            margin: 5px 0;
+        }
+        
+        /*style untuk about me*/
+        .container .content .about .jumbotron {
+            height: unset;
+            min-height: 260px;
+            padding: 5px;
+        }
+
+        .about .jumbotron .imgProfil {
+            font-size: 20px;
+        }
+
+        .about .jumbotron .caption {
+            font-size: 12px;
+        }
+
+        .container .content .about .header .title {
+            font-size: 18px;
+        }
+
+    }
+
+
+.container .content .about .header .title {
+    color: #eee;
+    font-size: 24px;
+}
+
+.container .content .about .singkat {
+    text-align: justify;
+}
+
+.container .content .about .titleBio {
+    background: #ccc;
+    color: #222;
+    font-weight: 800;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.7);
+    margin: 10px 0;
 }
