@@ -12,7 +12,7 @@
 /*
 Name             : F1Dev mudahan Responsive 2017
 Theme Published  : 20-12-2017
-Theme Update     : 23-12-2017
+Last Update      : 25-12-2017
 Type             : Personal Blog
 Style            : Minimalist
 Designer         : Al Hasan
@@ -858,6 +858,7 @@ i.fa.fa-angle-double-right.dua {
 }
 
 .content .about .unguTua {
+    overflow: hidden;
     background: #27253d;
     padding: 10px;
     line-height: 1.5em;
@@ -955,6 +956,7 @@ i.fa.fa-angle-double-right.dua {
 }
 
 .container .content .about .titleBio {
+    display: inline-block;
     background: #ccc;
     color: #222;
     font-weight: 800;
@@ -962,4 +964,120 @@ i.fa.fa-angle-double-right.dua {
     padding: 5px;
     box-shadow: 1px 2px 4px rgba(0,0,0,0.7);
     margin: 10px 0;
+    /* min-width: 57%; */
+}
+
+.content .about .imgbox {
+    float: left;
+    display: inline-block;
+    width: 300px;
+    /* background: #eee; */
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 4px; */
+    margin: 10px;
+}
+
+.content .about .imgbox img {
+    width: inherit;
+    background: #eee;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px #aaa;
+}
+
+.container .content .about .singkat.titleBio {
+    max-width: 56%;
+    margin: 10px;
+    margin-bottom: 0;
+    font-weight: 600;
+    padding: 20px 10px;
+}
+
+.content .about .boxModel1 {
+    margin-left: 10px;
+    display: inline-block;
+    width: 58.4%;
+}
+
+.content .about .boxModel2 .statistik1 {
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    margin: 5px 0;
+    background: red;
+    line-height: 40px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.content .about .boxModel1 .boxModel2 {
+    border-left: 6px solid red;
+    padding: 0 0;
+    padding-left: 10px;
+}
+
+.content .about .boxModel1 .boxModel2 .statistik2 {
+    display: inline-block;
+    height: 40px;
+    width: 300px;
+    margin: 5px 0;
+    background: red;
+    line-height: 40px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.content .about .imgbox .uniska {
+    height: 50px;
+    background: #514b97;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px #464279;
+    color: #222;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+    color: #eee;
+}
+
+.container .content .about .titleBio.block {
+    display: block;
+    margin: 10px;
+}
+
+.container .content .about .boxModel1 .titleBio.block {
+    display: block;
+    margin: 10px 0;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+.content .about .boxModel2 .statistik1.sd {background: #008080;}
+
+.content .about .boxModel2 .statistik2.sd {
+    background: #004777;
+}
+
+.content .about .boxModel2 .statistik1.smp {
+    background: #793810;
+}
+
+.content .about .boxModel2 .statistik2.smp {
+    background: #e45b07;
+}
+
+.content .about .boxModel2 .statistik1.smk {
+    background: #25632b;
+}
+
+.content .about .boxModel1 .boxModel2 .statistik2.smk {
+    background: #008000;
+}
+
+.content .about .boxModel2 .statistik1.kuliah {
+    background: #8b0000;
+}
+
+.content .about .boxModel1 .boxModel2 .statistik2.kuliah {
+    background: #cc0000;
 }
