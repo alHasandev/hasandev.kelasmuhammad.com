@@ -1191,3 +1191,21 @@ i.fa.fa-angle-double-right.dua {
     margin: 20px 10px;
     color: #111;
 }
+
+.content .about .imgbox.imgboxexp {
+    float: right;
+    width: 240px;
+    margin-bottom: 0;
+}
+
+.content .about .exp .boxModel1 {
+    width: 99%;
+    margin: 10px;
+    text-align: justify;
+    box-sizing: border-box;
+    /* padding: 10px; */
+}
+
+.content .about .exp .boxModel1 .pengalaman {
+    padding: 0 10px;
+}
