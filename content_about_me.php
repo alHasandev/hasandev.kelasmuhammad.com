@@ -89,7 +89,7 @@
 			<div class="titleBio block">Pekerjaan</div>
 			<div class="isi">
 			<div class="imgbox imgboxjob">
-				<img src="img/workerfallasleed.png" alt="img job hasandev">
+				<img src="img/workerfallasleed.png" alt="img job hasandev" />
 			</div>
 			<!-- <div class="boxModel1"> -->
 				<div class="boxModel2">
@@ -97,16 +97,55 @@
 				</div>
 			<!-- </div> -->
 			<div class="info">
-				<p>Untuk info atau pertanyaan lebih lanjut bisa ke blog khusus saya <a href="https://fiberkalsel.blogspot.com" target="_blank">fiberkalsel</a></p>
+				<p>Info atau pertanyaan lebih lanjut tentang pekerjaan saya bisa langsung ke blog khusus saya <a href="https://fiberkalsel.blogspot.com" target="_blank">fiberkalsel</a></p>
 			</div>
 			</div>
 		</div>
-		
-		<div class="titleBio block">pengalaman</div>
-		<div class="pengalaman">ini pengalaman</div> 
-		<div class="titleBio">Kemampuan</div>
-		<div class="skill">ini skill</div> 
-		<div class="titleBio">Anda bisa menemukan saya di</div>
+		<hr>
+		<div class="exp">
+			<div class="titleBio block">Pengalaman</div>
+			<div class="boxModel1">
+				<div class="boxModel2">
+					<div class="pengalaman">
+						<div class="imgbox imgboxexp">
+							<img src="img/expertadeventure.png" alt="my experience hasandev" />
+						</div>
+						Saya sadar akan salah satu kekurangan saya yaitu pengalaman, tidak banyak pengalaman yang menarik untuk disimak, salah satu yang paling berkesan adalah pada waktu saya masih belajar di smk yaitu pada masa magang. Tempat magang pertama saya adalah sebuah toko komputer di jalan kampung melayu yaitu Adil Komputer, saya diajarkan banyak keterampilan yang berhubungan dengan komputer seperti bagaimana merakit komputer, menginstal sistem operasi, mengatasi masalah masalah komputer/laptop yang sering timbul, seperti gaangguan virus, laptop/komputer lelet, bagian internal berdebu, ganti perangkat seperti RAM, HardDisk, atau VGA. Tempat magang yang kedua atau yang terakhir saat di smk adalah di KSOP (Kantor keSahbadaraan dan Otoritas Pelabuhan), disanan saya mendapat banyak pelajaran dibidang administrasi seperti bagaimana proses pembuatan surat-surat pelabuhan, menghadapi pengunjung yang ingin membuat/memperpanjang surat izin pelayaran, mengisi buku jurnal pembuatan surat pelayaran, mengatur file-file administrasi pelabuhan dan sebagainya.
+
+					</div>
+					
+				</div>	
+			</div>
+			
+		</div>
+		<hr>
+		<div class="skill">
+		<div class="titleBio block">Kemampuan</div>
+			<div class="isi">
+			<div class="imgbox imgboxjob">
+				<img src="img/workerfallasleed.png" alt="img job hasandev" />
+			</div>
+			<!-- <div class="boxModel1"> -->
+				<div class="boxModel2">
+					<div class="kemapuan"></div>
+				</div>
+			<!-- </div> -->
+			<div class="info">
+				<p>info</a></p>
+			</div>
+			</div>
+		</div>
+
+		<div class="kreatifity">
+		<div class="titleBio block">Karya Saya</div>
+		<div class="boxModel1">
+			<div class="boxModel2">
+				ini karya saya
+			</div>
+		</div>
+		</div>
+
+		<div class="titleBio block">Anda bisa menemukan saya di</div>
 		<div class="Kontak">
 			<div class="alamat">disini akan ada alamat</div>
 			<div class="nomer">
