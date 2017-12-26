@@ -104,7 +104,7 @@ Keterangan            : Jika ada yang mau bekerja sama dalam mengembangkan sebua
         <p><a href="https://hasandev.blogspot.co.id" target="_blank">hasandev.blogspot.co.id</p>
         <p><a href="https://fiberkalsel.blogspot.co.id" target="_blank">fiberkalsel.blogspot.co.id</p>
         <p><a href="http://doa.kelasmuhammad.com" target="_blank">doa.kelasmuhammad.com</a></p>
-        <p><a href="www.w3schools.com" target="_blank">menjadi partner</a></p>
+        <p><a href="?menu=contact" target="_blank">menjadi partner</a></p>
       </span>
       <span class="right">
         <h2>Development</h2>
