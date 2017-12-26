@@ -46,6 +46,10 @@ body {
     background: #ccc;
 }
 
+hr {
+    border: 0.5px solid #514b97;
+}
+
 .container {
     max-width: 1200px;
     padding: 0px;
@@ -309,6 +313,250 @@ span.clear {
     height: 40px;
     line-height: 40px;
     box-sizing: border-box;
+}
+
+.content .title-content i.fa.fa-laptop {
+    float: left;
+    height: 100%;
+    width: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+    font-size: 30px;
+    color: #eee;
+}
+
+.content span.properti {
+    width: 150px;
+    display: inline-block;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.content span.nilai {display: inline-block;width: 600px;margin: 10px 0;}
+
+.content .alamat {
+    background: #fff98e;
+    border-left: 6px solid #daa520;
+    padding: 10px 10px 10px 20px;
+}
+
+.content .about {
+    background: #514b97;
+    color:#eee;
+}
+.content .about .jumbotron {
+    height: 580px;
+    background: #27253d;
+    background-image: url("../img/forJumbotronHKM.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 10px;
+}
+
+
+.about .jumbotron .imgProfil {
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 0 4px 16px rgba(0,0,0,0.7);
+}
+
+.about .jumbotron .caption {
+    font-style: italic;
+    text-align: center;
+}
+
+.content .about .unguMuda {
+    background: #514b97;
+    height: 40px;
+}
+
+.content .about .unguTua {
+    overflow: hidden;
+    background: #27253d;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+.content .about .alamat {
+    background: unset;
+    border: none;
+    padding: 0;
+}
+
+.container .content .about .header .title {
+    color: #eee;
+    font-size: 24px;
+}
+
+.container .content .about .singkat {
+    text-align: justify;
+}
+
+.container .content .about .titleBio {
+    display: inline-block;
+    background: #ccc;
+    color: #222;
+    font-weight: 800;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.7);
+    margin: 10px 0;
+    /* min-width: 57%; */
+}
+
+.content .about .imgbox {
+    float: left;
+    display: inline-block;
+    width: 300px;
+    /* background: #eee; */
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 4px; */
+    margin: 10px;
+}
+
+.content .about .imgbox img {
+    width: inherit;
+    background: #eee;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px #aaa;
+}
+
+.container .content .about .singkat.titleBio {
+    max-width: 59%;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-bottom: 0;
+    font-weight: 600;
+    padding: 20px 10px;
+    background: #fff;
+}
+
+.content .about .boxModel1 {
+    margin-left: 10px;
+    display: inline-block;
+    width: 59%;
+    /* float: left; */
+}
+
+.content .about .boxModel2 .statistik1 {
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+    margin: 5px 0;
+    background: red;
+    line-height: 40px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.content .about .boxModel1 .boxModel2 {
+    border-left: 6px solid red;
+    padding: 0 0;
+    padding-left: 10px;
+}
+
+.content .about .boxModel1 .boxModel2 .statistik2 {
+    display: inline-block;
+    height: 40px;
+    width: 319px;
+    margin: 5px 0;
+    background: red;
+    line-height: 40px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.content .about .imgbox .uniska {
+    height: 50px;
+    background: #514b97;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px #464279;
+    color: #222;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    margin: 2px 0 0 0;
+    color: #eee;
+}
+
+.container .content .about .titleBio.block {
+    display: block;
+    margin: 10px;
+    text-align: center;
+}
+
+.container .content .about .boxModel1 .titleBio.block {
+    display: block;
+    margin: 10px 0;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+.content .about .boxModel2 .statistik1.sd {background: #008080;}
+
+.content .about .boxModel2 .statistik2.sd {
+    background: #004777;
+}
+
+.content .about .boxModel2 .statistik1.smp {
+    background: #793810;
+}
+
+.content .about .boxModel2 .statistik2.smp {
+    background: #e45b07;
+}
+
+.content .about .boxModel2 .statistik1.smk {
+    background: #25632b;
+}
+
+.content .about .boxModel1 .boxModel2 .statistik2.smk {
+    background: #008000;
+}
+
+.content .about .boxModel2 .statistik1.kuliah {
+    background: #8b0000;
+}
+
+.content .about .boxModel1 .boxModel2 .statistik2.kuliah {
+    background: #cc0000;
+}
+.content .about .imgboxhoby {
+    width: 314px;
+    float: right;
+    display: inline-block;
+    margin: 10px 10px 10px auto;
+    /* margin-right: 20px; */
+}
+
+.content .about .imgboxhoby img {
+    width: inherit;
+}
+
+.content .about .boxModel1 .boxModel2 ul {
+    padding: 0 25px;
+    list-style-type: decimal;
+    color: #000;
+    background: #fff;
+    margin: 10px 0;
+}
+
+.content .about .boxModel1 .boxModel2 ul li  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content .about .boxModel1 .boxModel2 ul li {
+    border-bottom: 0.5px solid #aaa;
+    font-weight: bold;
+}
+
+.content .about .boxModel1 .boxModel2 ul li ul li {
+    border: none;
+    font-weight: 100;
 }
 
 /*jika layar device kurang dari 999px*/
@@ -801,74 +1049,7 @@ i.fa.fa-angle-double-right.dua {
     
 /* akhir style*/
 
-.content .title-content i.fa.fa-laptop {
-    float: left;
-    height: 100%;
-    width: 50px;
-    line-height: 50px;
-    box-sizing: border-box;
-    font-size: 30px;
-    color: #eee;
-}
 
-.content span.properti {
-    width: 150px;
-    display: inline-block;
-    margin: 10px 0;
-    font-weight: 600;
-}
-
-.content span.nilai {display: inline-block;width: 600px;margin: 10px 0;}
-
-.content .alamat {
-    background: #fff98e;
-    border-left: 6px solid #daa520;
-    padding: 10px 10px 10px 20px;
-}
-
-.content .about {
-    background: #514b97;
-    color:#eee;
-}
-.content .about .jumbotron {
-    height: 580px;
-    background: #27253d;
-    background-image: url("../img/forJumbotronHKM.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 10px;
-}
-
-
-.about .jumbotron .imgProfil {
-    text-align: center;
-    font-size: 60px;
-    text-transform: uppercase;
-    text-shadow: 0 4px 16px rgba(0,0,0,0.7);
-}
-
-.about .jumbotron .caption {
-    font-style: italic;
-    text-align: center;
-}
-
-.content .about .unguMuda {
-    background: #514b97;
-    height: 40px;
-}
-
-.content .about .unguTua {
-    overflow: hidden;
-    background: #27253d;
-    padding: 10px;
-    line-height: 1.5em;
-}
-
-.content .about .alamat {
-    background: unset;
-    border: none;
-    padding: 0;
-}
 
 @media screen and (max-width: 800px) and (min-width: 700px){
     .container .content .about .jumbotron {
@@ -915,6 +1096,45 @@ i.fa.fa-angle-double-right.dua {
 }
 
 @media screen and (max-width: 460px){
+
+        .content .about .imgbox {
+            width: 100%;
+            margin: 10px auto;
+        }
+
+        .container .content .about .singkat.titleBio {
+            max-width: 100%;
+            margin: 10px auto;
+            font-weight: 400;
+            background: #fff;
+            padding: 10px;
+        }
+
+        .content .about .boxModel1 {
+            width: 100%;
+            margin: 10px auto;
+        }
+
+        .content .about .boxModel1 .boxModel2 .statistik1 {
+            width: 100%;
+        }
+
+        .content .about .boxModel1 .boxModel2 .statistik2 {
+            width:100%;
+        }
+        
+        .container .content .about .titleBio.block {
+            margin: 10px auto;
+        }
+
+        .content .about .boxModel1 .boxModel2 ul {
+            margin: 0;
+        }
+
+        .content .about .imgboxhoby {
+            width: 100%;
+            margin: 10px auto;
+        }
         .demoKalkulator {
             width: 100%;
         }
@@ -946,138 +1166,28 @@ i.fa.fa-angle-double-right.dua {
     }
 
 
-.container .content .about .header .title {
-    color: #eee;
-    font-size: 24px;
+
+
+.content .about .imgbox.imgboxjob img {
+    box-shadow: none;
+    border-radius: 0;
 }
 
-.container .content .about .singkat {
+.content .about .imgbox.imgboxjob {
+    margin: 0 10px;
+    width: 200px;
+}
+
+.content .about .job .boxModel2 {
+    border-left: 6px solid #25b14c;
+    display: inline-block;
+    width: 70%;
+    box-sizing: border-box;
     text-align: justify;
+    padding-left: 20px;
 }
 
-.container .content .about .titleBio {
-    display: inline-block;
-    background: #ccc;
-    color: #222;
-    font-weight: 800;
-    border-radius: 3px;
-    padding: 5px;
-    box-shadow: 1px 2px 4px rgba(0,0,0,0.7);
-    margin: 10px 0;
-    /* min-width: 57%; */
-}
-
-.content .about .imgbox {
-    float: left;
-    display: inline-block;
-    width: 300px;
-    /* background: #eee; */
-    border-radius: 5px;
-    /* box-shadow: 2px 2px 4px; */
-    margin: 10px;
-}
-
-.content .about .imgbox img {
-    width: inherit;
-    background: #eee;
-    border-radius: 3px;
-    box-shadow: 2px 2px 4px #aaa;
-}
-
-.container .content .about .singkat.titleBio {
-    max-width: 56%;
-    margin: 10px;
-    margin-bottom: 0;
-    font-weight: 600;
-    padding: 20px 10px;
-}
-
-.content .about .boxModel1 {
-    margin-left: 10px;
-    display: inline-block;
-    width: 58.4%;
-}
-
-.content .about .boxModel2 .statistik1 {
-    display: inline-block;
-    height: 40px;
-    width: 150px;
-    margin: 5px 0;
-    background: red;
-    line-height: 40px;
-    padding: 0 10px;
-    box-sizing: border-box;
-}
-
-.content .about .boxModel1 .boxModel2 {
-    border-left: 6px solid red;
-    padding: 0 0;
-    padding-left: 10px;
-}
-
-.content .about .boxModel1 .boxModel2 .statistik2 {
-    display: inline-block;
-    height: 40px;
-    width: 300px;
-    margin: 5px 0;
-    background: red;
-    line-height: 40px;
-    padding: 0 10px;
-    box-sizing: border-box;
-}
-
-.content .about .imgbox .uniska {
-    height: 50px;
-    background: #514b97;
-    border-radius: 3px;
-    box-shadow: 2px 2px 4px #464279;
-    color: #222;
-    font-size: 24px;
-    text-align: center;
-    line-height: 50px;
-    font-weight: 600;
-    margin: 20px 0 0 0;
-    color: #eee;
-}
-
-.container .content .about .titleBio.block {
-    display: block;
-    margin: 10px;
-}
-
-.container .content .about .boxModel1 .titleBio.block {
-    display: block;
-    margin: 10px 0;
-    max-width: 100%;
-    padding-left: 10px;
-}
-
-.content .about .boxModel2 .statistik1.sd {background: #008080;}
-
-.content .about .boxModel2 .statistik2.sd {
-    background: #004777;
-}
-
-.content .about .boxModel2 .statistik1.smp {
-    background: #793810;
-}
-
-.content .about .boxModel2 .statistik2.smp {
-    background: #e45b07;
-}
-
-.content .about .boxModel2 .statistik1.smk {
-    background: #25632b;
-}
-
-.content .about .boxModel1 .boxModel2 .statistik2.smk {
-    background: #008000;
-}
-
-.content .about .boxModel2 .statistik1.kuliah {
-    background: #8b0000;
-}
-
-.content .about .boxModel1 .boxModel2 .statistik2.kuliah {
-    background: #cc0000;
+.content .about .job .info {
+    margin: 20px 10px;
+    color: #111;
 }
