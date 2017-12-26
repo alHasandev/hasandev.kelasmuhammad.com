@@ -114,7 +114,7 @@
 <p>Selamat datang di website saya yang sederhana, ini adalah website pertama yang saya buat sendiri full tanpa pake template punya orang lain atau template bawaan aplikasi seperti dreamweaver, dan website pertama saya yang terhosting berada di internet selain dari <a href="https://hasandev.blogspot.co.id" target="_blank">blog saya</a> yang numpang di tempat <a href="https://www.blogger.com" target="_blank">(blogger.com)</a> punyanya mbah google. Walau masih sangat sederhana dan banyak kekurangannya, tapi biarlah ini menjadi awal dari perjalanan saya menjadi web developer professional. amiin... ya Allah.</p>
 
 <h3>Website apasih ini ?</h3>
-<p>Nah mungkin banyak dari pembaca yang bingung website jenis apa ini, jadi sebenarnya saya pun juga masih bingung mau disebut apa atau apa yang mau saya tulis, tutorial ? yah saya aja baru belajar dan walau ada kebisaan tapi gak terlalu ahli untuk bisa buat tutorial paling yang abal-abal(gklah). Nah karena sekarang belum ada rencana mau dijadiin website apa, saya mungkin juga share apapun saya mau :v, biarlah jadi website gado gado, asal jangan CPE (<em>Copy Paste Edit</em>), walau saya juga ngambil bahan dari sumber yang berhamburan di internet, tapi paling tidak saya tidak terlalu malas untuk langsung copy paste (tanpa ngetik manual). Dan yang terpenting saat mengambil bahan diinternet adalah untuk menyertakan sumber dan credit pada yang bersangkutan untuk menghargai usaha orang lain</p>
+<p>Nah mungkin banyak dari pembaca yang bingung website jenis apa ini, jadi sebenarnya saya pun juga masih bingung mau disebut apa atau apa yang mau saya tulis, tutorial ? yah saya aja baru belajar dan walau ada kebisaan tapi gak terlalu ahli untuk bisa buat tutorial paling yang abal-abal(gklah). Nah karena sekarang belum ada rencana mau dijadiin website apa, saya mungkin juga share apapun saya mau :v, biarlah jadi website gado gado, asal jangan CPTE (<em>Copy Paste Tanpa Edit</em>), walau saya juga ngambil bahan dari sumber yang berhamburan di internet, tapi paling tidak saya tidak terlalu malas untuk langsung copy paste (tanpa edit :v). Dan yang terpenting saat mengambil bahan diinternet adalah untuk menyertakan sumber dan credit pada yang bersangkutan untuk menghargai usaha orang lain</p>
 <div class="info">
 	<p>baca tulisan saya yang lain, tutorial, artikel maupun cerita di <a href="?menu=blog">blog saya</a></p>
 </div>
@@ -134,16 +134,16 @@
 <div class="info">
 	<h4>Baca Juga</h4>
 	<p>
-		penjelasan sederhana tentang HTML dan CSS  : <a href="">baca artikel</a>
+		penjelasan sederhana tentang HTML dan CSS  : <a href="Javascript:void(0);" onclick="alert('belum ada sanak');">baca artikel</a>
 	</p>
 	<p>
-		membuat website sederhana dari awal (from scratch) : <a href="">lihat tutorial</a>
+		membuat website sederhana dari awal (from scratch) : <a href="Javascript:void(0);" onclick="alert('belum ada sanak');">lihat tutorial</a>
 	</p>
 	<p>
-		dasar dasar web development : <a href="">baca artikel</a>
+		dasar dasar web development : <a href="Javascript:void(0);" onclick="alert('belum ada sanak');">baca artikel</a>
 	</p>
 	<p>
-		cerita saya dalam belajar membuat website : <a href="">ikuti cerita</a>
+		cerita saya dalam belajar membuat website : <a href="Javascript:void(0);" onclick="alert('belum ada sanak');">ikuti cerita</a>
 	</p>
 </div>
 
@@ -152,10 +152,10 @@
 <p>Tidak ada yang spesial dari website ini, karena masih sangat sederhana, malah akan terlihat sangat kumuh jika dibandingkan dengan website para mastah diluar sana. Karena itu saya akan <em>keep study and keep action</em> dalam web development</p>
 <p>Saya juga tidak keberatan jika ada bertanya atau ingin bekerjasama dalam pembuatan sebuah website atau <em>aplication programming</em> lainnya, jika ada yang ingin minta buatkan website sederhana dan saya memiliki waktu luang, maka dengan senang hati saya saya akan menerimanya, sebab sebuah skill atau ilmu itu ibarat sebuah pisau, dan terus menggunakannya seperti mengasahnya terus menerus dan membuatnya tajam, dan jika tidak digunakan maka hanya akan berkarat.</p>
 <div class="info">
-	<p>Jika ada yang perlu ditanyakan atau <em>request</em> bisa pilih subject 'Request' di menu contact, atau klik <a href="">disini</a></p>
-	<p>Saya juga sangat senang bekerjasama dengan anda, lets <a href="">kerjasama</a></p>
+	<p>Jika ada yang perlu ditanyakan atau <em>request</em> bisa pilih subject 'Request' di menu contact, atau klik <a href="Javascript:void(0);" onclick="alert('belum ada sanak');">disini</a></p>
+	<p>Saya juga sangat senang bekerjasama dengan anda, lets <a href="Javascript:void(0);" onclick="alert('belum ada sanak');">kerjasama</a></p>
 	<p>pertanyaan akan saya jawab jika sempat, bagi permintaan pembuatan website akan saya kerjakan jika saya punya waktu luang.</p>
-	<p>bagi yang dengan murah hati mau bedonasi, maka permintaanya akan saya prioritaskan. <a href="">donasi</a></p>
+	<p>bagi yang dengan murah hati mau bedonasi, maka permintaanya akan saya prioritaskan. <a href="Javascript:void(0);" onclick="alert('belum ada sanak');">donasi</a></p>
 </div>
 
 <h3>Terima kasih saya</h3>
@@ -168,7 +168,7 @@
 <p>Harapan saya semoga website ini dapat memberikan motivasi bagi saya (<em>khususnya</em>) dan teman teman, dan menjadi tempat berbagi ilmu, pengalaman dan belajar bersama serta untuk menambah pengalaman saya dalam bidang web development (yang mana masih sangat sedikit) dan menambah kepercayaan diri saya untuk berkarya.</p>
 <p>Saya juga berharap ini dapat membuka kesempatan (<em>Oppurtunity</em>) dan menjadi langkah nyata <em>Action</em> dalam meraih mimpi saya (<em>Dream</em>). <em><a href="">#Dream Oppurtunity Action (DOA)</a></em></p>
 <div class="info">
-	<p style="text-align: left;"><em>#Dream Oppurtunity Action</em> adalah <em>qoute</em> teman saya Muhammad Arif Kurniawan, kunjungi websitenya di <a href="http://doa.kelasmuhammad.com">doa.kelasmuhammad.com</a></p>
+	<p style="text-align: left;"><em>#Dream Oppurtunity Action</em> adalah <em>qoute</em> teman saya Muhammad Arif Kurniawan, kunjungi websitenya di <a href="http://doa.kelasmuhammad.com" target="_blank">doa.kelasmuhammad.com</a></p>
 </div>
 <h3>Akhir</h3>
 <p>Baik itu saja yang intro singkat yang dapat saya sampaikan (untuk sekarang), terimakasih telah mau membaca hingga selesai, mohon maaf atas kekurangan dan kehilafannya, kritik dan saran dengan senang hati diterima (langsung ke halaman <a href="?menu=contact">contact</a>). Penulis tidak berbakat dalam menyusun kata-kata karena itu sekali lagi mohon maklum, jika mungkin kalimat yang tidak berkenan dihati, maupun gaya penulisan yang kacau karena kurangnya keterampilan penulis. Untuk menjelajah lebih lanjut silahkan pilih menu dipojok kiri atas, sekian dan terima kasih.

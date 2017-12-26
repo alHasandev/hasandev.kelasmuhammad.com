@@ -26,7 +26,7 @@
 		</ul>
 	</div>
 </div>
-
+<h3>[Artikel] Dasar dasar web development</h3>
 <h3>[Tutorial] Membuat kalkulator sederhana di web dengan html dan Javascript</h3>
 <p>Karena saya juga baru belajar web programming menggunakan javascript dan setelah sedikit belajar, saya coba-coba buat kalkulator sederhana, karena saat saya belajar pemrograman di smk atau dikuliah sekarang (pascal, delphi, foxpro, c++) biasanya saya diberi tugas untuk membuat kalkulator sederhana, tapi jika biasanya dijalankan di platform windows, sekarang saya mencoba menerapkannya di web menggunakan bahasa pemrograman javascript</p>
 <p>Setelah banyak trial error akhirnya saya berhasil membuat kalkulator walupun masih sangat sederhana, karena saya berbagi itu indah dan saya tidak punya banyak uang untuk dibagi-bagi, jadi saya akan berbagi sesuatu yang tidak akan habis, tapi malah bertambah saat dibagi. <em>#berbagi itu indah</em></p>
@@ -41,7 +41,7 @@
 <div class="info">
 	<p>Saya sendiri lebih suka memakai Code Editor <a href="">Sublime Text</a>, tapi memakai code editor yang lain juga tidak masalah</p>
 </div>
-<p>Mental, untuk seorang programmer atau orang yang ingin menjadi programmer diharuskan memiliki mental pantang menyerah dalam trial and error </p>
+<p>Mental, untuk seorang programmer atau orang yang ingin menjadi programmer diharuskan memiliki mental pantang menyerah dan selalu ingin belajar</p>
 <p></p>
 <p></p>
 <p>Coba kalkulator</p>
