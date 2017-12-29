@@ -25,9 +25,11 @@ Kelas                 : 3 I Reguler Malam
 Keterangan            : Jika ada yang mau bekerja sama dalam mengembangkan sebuah website atau mau merekrut saya pada suatu pekerjaan baik jangka panjang maupun jangka pendek, saya akan sangat senang bekerjasama. Hubungi (Call/Chat -> WA ) : 082149259826
 
 -->
-
+<!-- Meta Tag -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-witdh, initial-scale=1.0" />
 <!-- <meta http-equiv="refresh" content="1;url=?menu=home"> -->
+<!-- Akhir Meta -->
 <title>Hasandev - learn to be a good developer</title>
 
 <!--Menghubungkan dengan file CSS-->
